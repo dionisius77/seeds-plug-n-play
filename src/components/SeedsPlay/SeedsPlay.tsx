@@ -1,7 +1,7 @@
 // import axios, { AxiosError } from "axios";
 import React, { useCallback, useEffect, useState } from "react";
 
-export type SeedsPlayProps = {
+export interface SeedsPlayProps {
   userId: string;
   userName: string;
 }

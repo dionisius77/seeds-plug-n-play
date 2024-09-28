@@ -1,9 +1,9 @@
 {
   "name": "@dionisius77/seeds-plug-n-play",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/dionisius7723"
+    "registry": "https://npm.pkg.github.com/dionisius77"
   },
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "NPM package for seeds plug-n-play",
   "scripts": {
     "rollup": "rollup -c"
