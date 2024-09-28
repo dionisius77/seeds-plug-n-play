@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/dionisius77"
   },
-  "version": "0.0.4",
+  "version": "0.0.3",
   "description": "NPM package for seeds plug-n-play",
   "scripts": {
     "rollup": "rollup -c"
@@ -32,6 +32,6 @@
   "files": [
     "dist"
   ],
-  "types": "dist/types.d.ts",
+  "types": "dist/index.d.ts",
   "type": "module"
 }
