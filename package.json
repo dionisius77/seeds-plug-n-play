@@ -1,0 +1,37 @@
+{
+  "name": "@dionisius77/seeds-plug-n-play",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dionisius7723"
+  },
+  "version": "0.0.1",
+  "description": "NPM package for seeds plug-n-play",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Dionisius Aditya Octa N",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^8.5.0",
+    "@types/react": "^17.0.34",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^17.0.2",
+    "rollup": "^2.79.2",
+    "rollup-plugin-dts": "^4.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.7.0",
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "type": "module"
+}
