@@ -1,13 +1,15 @@
 {
-  "name": "@dionisius77/seeds-plug-n-play",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/dionisius77"
-  },
-  "version": "0.0.4",
+  "name": "seeds-client-react",
+  "version": "0.0.1",
   "description": "NPM package for seeds plug-n-play",
   "scripts": {
     "rollup": "rollup -c"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dionisius77/seeds-plug-n-play.git"
+  },
+  "homepage": "https://github.com/dionisius77/seeds-plug-n-play",
   "author": "Dionisius Aditya Octa N",
   "license": "ISC",
   "devDependencies": {
